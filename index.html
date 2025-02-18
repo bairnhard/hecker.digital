@@ -109,7 +109,7 @@
                 comment: document.getElementById("comment").value,
                 consent: document.getElementById("consent").checked
             };
-            fetch("https://orchestrator-worker.hecker.digital", {
+            fetch("https://orchestrator-signup-worker.bernhard-hecker.workers.dev", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
